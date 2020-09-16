@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/iduser"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/TvNipUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="4dp"
+                android:paddingLeft="4dp"
+                android:paddingBottom="4dp"
+                android:text="@string/labelnip"
+                android:textColor="@color/green"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/TvNameUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="4dp"
+                android:paddingLeft="4dp"
+                android:paddingBottom="4dp"
+                android:text="@string/labelname"
+                android:textColor="@color/green"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+                android:id="@+id/TvNoTelpUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="4dp"
+                android:paddingLeft="4dp"
+                android:paddingBottom="4dp"
+                android:text="@string/labeltelp"
+                android:textColor="@color/green"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+                android:id="@+id/TvNoKtpUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="4dp"
+                android:paddingLeft="4dp"
+                android:paddingBottom="4dp"
+                android:text="@string/labelNoKtp"
+                android:textColor="@color/green"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+                android:id="@+id/TvNoSimUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="4dp"
+                android:paddingLeft="4dp"
+                android:paddingBottom="4dp"
+                android:text="@string/labelNoSimUser"
+                android:textColor="@color/green"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+                android:id="@+id/TvALamatUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="4dp"
+                android:paddingLeft="4dp"
+                android:paddingBottom="4dp"
+                android:text="@string/labelAlamat"
+                android:textColor="@color/green"
+                android:textStyle="bold|italic" />
+
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:background="@color/colorAccent"
+                android:id="@+id/IvFotoProfilUser"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/IvFotoKtp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/IvFotoSim"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/IvFotoTtd"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+    <LinearLayout
+
+        android:id="@+id/LLBtnUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/BtnHapusUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Hapus"
+            android:textColor="@color/green"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/colorPrimaryDark"/>
+
+</LinearLayout>

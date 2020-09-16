@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">RegisterUser</string>
+    <string name="telp">telepon User</string>
+    <string name="labelname">Nama User</string>
+    <string name="labelnip">nip user</string>
+    <string name="labeltelp">Nomor telp User</string>
+    <string name="labelNoKtp">Nomor Ktp User</string>
+    <string name="labelFotoKtp">Foto Ktp User</string>
+    <string name="labelNoSimUser">Nomor Sim User</string>
+    <string name="labelFotoSimUser">Foto Sim User</string>
+    <string name="labelFotoTtd">Foto TTD User</string>
+    <string name="labelAlamat">Alamat User</string>
+    <string name="Save">Simpan</string>
+
+    <string name="agreement">I agree the terms and conditions.</string>
+    <string name="clear_pad">Hapus TTD</string>
+    <string name="save_signature">Simpan TTD</string>
+    <string name="view">Lihat User</string>
+
+    //intent
+    <string name="fotoprofil">fotoprofil</string>
+    <string name="nama">nama</string>
+    <string name="nip">nip</string>
+    <string name="lat">lat</string>
+    <string name="lang">lang</string>
+    <string name="telpone">telpone</string>
+    <string name="noktp">noktp</string>
+    <string name="fotoktp">fotoktp</string>
+    <string name="nosim">nosim</string>
+    <string name="fotosim">fotosim</string>
+    <string name="fotottd">fotottd</string>
+    <string name="id">id</string>
+    <string name="update">Update</string>
+
+
+
+</resources>
